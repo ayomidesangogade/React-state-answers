@@ -1,0 +1,99 @@
+Counter Button
+Build a Counter component that renders a button and a display of the current count. Each click should increment the count by 1 using the useState Hook 
+DEV Community
+.
+
+Toggle Visibility
+Create a component that shows or hides a block of text when a “Toggle” button is clicked. Use useState to track the visibility boolean 
+clientside.dev
+.
+
+Controlled Input Mirror
+Implement a text input that updates its value in state on every keystroke and displays the current value below the input in real time 
+GeeksforGeeks
+.
+
+Like Button with Animation
+Build a “Like” button that toggles between liked/unliked state. Change the button’s label (e.g. “Like” ↔ “Unlike”) and apply a simple CSS animation on state change 
+Medium
+.
+
+Progress Bar
+Create a progress bar component with a numeric value (0–100) in state. Add “+” and “–” buttons to increase or decrease the value by 10, clamping between 0 and 100 
+Medium
+.
+
+Tab Switcher
+Given two arrays (e.g. heroes and villains), build a tabbed interface that switches which list is shown when clicking “Show Heroes” or “Show Villains” buttons, storing the active tab in state 
+Medium
+.
+
+Resettable State
+Extend one of the above components so that a “Reset” button restores its state to the initial value passed via props 
+GeeksforGeeks
+.
+
+Normal
+Todo List
+Implement a Todo list where users can add new items via an input, mark items as completed, and remove items. Manage the list of todos in state as an array of objects 
+GeeksforGeeks
+.
+
+Shopping Cart
+Build a simple cart component: display a list of products with “Add to Cart” buttons, track selected items in state, and render the current cart contents and total price 
+GreatFrontEnd
+.
+
+Accordion Component
+Create an accordion that renders multiple sections. Clicking a section header toggles its open/closed state without affecting others 
+GeeksforGeeks
+.
+
+Modal Dialog
+Build a modal component that appears when clicking an “Open Modal” button and disappears on “Close”. Use state in a parent component to control the modal’s visibility 
+CoderPad
+.
+
+Form with Multiple Fields
+Design a form with several input fields (e.g. name, email, message) and store their values in a single useState call via an object. Handle changes for each field dynamically 
+GeeksforGeeks
+.
+
+Image Gallery Filter
+Render a gallery of images with categories. Add buttons to filter the displayed images by category, storing the current filter in state 
+GeeksforGeeks
+.
+
+Theme Switcher
+Implement a light/dark theme switcher that toggles a CSS class on the <body> and stores the current theme in component state 
+GeeksforGeeks
+.
+
+Hard
+Multi-Step Form
+Build a wizard-style form with three steps. Store all form data in state and navigate between steps without losing entered data 
+Medium
+.
+
+Custom useLocalStorageState Hook
+Create a custom Hook useLocalStorageState(key, defaultValue) that (1) initializes state from localStorage and (2) writes updates back to localStorage automatically via useEffect 
+Josh W. Comeau
+.
+
+Dynamic List Search
+Render a searchable list of items: as the user types into a search input, filter the displayed list in real time. Optimise by debouncing the input updates 
+DEV Community
+.
+
+Performance Optimisation
+Given a large list of items rendered from state, use React.memo, useCallback, and useMemo where appropriate to prevent unnecessary re-renders when unrelated state changes 
+Medium
+.
+
+Synchronise with URL Query
+Build a component whose state is reflected in (and initialised from) a URL query parameter, and updates the URL when the state changes (e.g. ?page=2) 
+DEV Community
+.
+
+Deeply Nested State Pitfalls
+Create a deeply nested form object in state (e.g. an array of sections, each with fields). Demonstrate two approaches to immutably update a nested field: direct spread updates vs. a helper library like Immer

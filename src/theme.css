@@ -1,0 +1,65 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.light {
+  background-color: #f5f5f5;
+  color: #222;
+}
+
+body.dark {
+  background-color: #121212;
+  color: #e5e5e5;
+}
+
+.page-content {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.theme-switcher {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+
+#themeToggle {
+  position: relative;
+  padding: 10px 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 24px;
+  transition: transform 0.3s ease;
+}
+
+/* Icon Styling */
+#themeToggle .icon {
+  display: none;
+}
+
+body.light #themeToggle .sun {
+  display: inline;
+}
+
+body.dark #themeToggle .moon {
+  display: inline;
+}
+
+/* Optional: Add a glow effect */
+#themeToggle:hover {
+  transform: scale(1.05);
+}
+
+body.light #themeToggle {
+  color: #222;
+}
+
+body.dark #themeToggle {
+  color: #f5f5f5;
+}

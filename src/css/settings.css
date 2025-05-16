@@ -1,0 +1,40 @@
+.settings-panel {
+  padding: 2rem;
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.settings-panel.dark {
+  background-color: #1f1f1f;
+  color: #f1f1f1;
+}
+
+.setting-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.setting-item input[type="checkbox"] {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.settings-output {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #efefef;
+  border-radius: 8px;
+  font-family: monospace;
+  font-size: 0.95rem;
+}
+
+.settings-panel.dark .settings-output {
+  background-color: #2c2c2c;
+  color: #dcdcdc;
+}
