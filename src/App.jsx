@@ -17,7 +17,7 @@ import SettingsPanel from "./solutions/SettingsPanel"
 
 function App() {
   return (
-    <Form />
+    <Modal />
   )
 }
 

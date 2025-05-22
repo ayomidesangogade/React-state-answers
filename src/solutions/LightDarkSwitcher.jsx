@@ -1,4 +1,5 @@
 import React from "react"
+import "../theme.css"
 
 function ThemeSwitcher() {
     const [theme, setTheme] = React.useState("light")
@@ -19,7 +20,7 @@ function ThemeSwitcher() {
             </div>
 
             <div className="page-content">
-                <h1>Welcome to My Themed Page</h1>
+                <h1 className={theme === "light" ? "" : "dark"}>Welcome to My Themed Page</h1>
                 <p>This is a paragraph that responds to light and dark themes.</p>
             </div>
         </>

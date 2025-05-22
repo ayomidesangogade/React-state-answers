@@ -15,6 +15,10 @@ body.dark {
   color: #e5e5e5;
 }
 
+h1.dark {
+  color: #e5e5e5;
+}
+
 .page-content {
   padding: 60px 20px;
   text-align: center;
